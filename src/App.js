@@ -8,12 +8,5 @@ function App() {
     </div>
   );
 }
-const styles={
-  image:{
-    height:110,
-    width:110,
-    borderRadius:4
 
-  }
-}
 export default App;
