@@ -24,6 +24,10 @@ body {
 .action-icons:hover{
   cursor:pointer;
 }
+.cart{
+  display:flex;
+  flex-direction:column;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
