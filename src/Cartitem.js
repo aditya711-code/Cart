@@ -6,12 +6,12 @@ const Cartitem=(props)=>{
     
     
       
-        const{prices,title,qty}=props.product;
+        const{prices,title,qty,img}=props.product;
         const{product,onIncreaseQuantity,onDecreaseQuantity, onDeleteProduct}=props;
         return (
             <div className="cart-item">
                 <div className="left-block">
-                   <img style={styles.image}/>
+                   <img style={styles.image} src={img}/>
 
                 </div>
                 <div className="right-block">
